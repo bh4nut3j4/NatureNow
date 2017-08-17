@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#4caf50"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="5dp"
+            android:background="#66bb6a"
+            android:id="@+id/cd1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/img_1"
+                    android:scaleType="fitXY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp" />
+
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/p1"
+                    android:visibility="invisible"
+                    android:layout_marginStart="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/img_1" />
+
+                <TextView
+                    android:text="Asoka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n1"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_alignTop="@+id/p1"
+                    android:layout_toEndOf="@+id/img_1" />
+
+                <TextView
+                    android:text="Saraca Indica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n11"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_alignBottom="@+id/p1"
+                    android:layout_alignStart="@+id/n1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="5dp"
+            android:background="#66bb6a"
+            android:id="@+id/cd2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cd1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/img_2"
+                    android:scaleType="fitXY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp" />
+
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="invisible"
+                    android:id="@+id/p2"
+                    android:layout_marginStart="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/img_2" />
+
+                <TextView
+                    android:text="Cocos nucifera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n22"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_alignBottom="@+id/p2"
+                    android:layout_alignStart="@+id/n2" />
+
+                <TextView
+                    android:text="Coconut tree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n2"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_above="@+id/n22"
+                    android:layout_toEndOf="@+id/img_2" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="5dp"
+            android:background="#66bb6a"
+            android:id="@+id/cd3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cd2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/img_3"
+                    android:scaleType="fitXY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp" />
+
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/p3"
+                    android:visibility="invisible"
+                    android:layout_marginStart="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/img_3" />
+
+                <TextView
+                    android:text="Azadirachta Indica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n33"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_alignBottom="@+id/p3"
+                    android:layout_toEndOf="@+id/img_3"
+                    android:layout_marginStart="21dp" />
+
+                <TextView
+                    android:text="Neem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n3"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_above="@+id/n33"
+                    android:layout_alignStart="@+id/n33" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:padding="5dp"
+            android:background="#66bb6a"
+            android:id="@+id/cd4"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cd3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/img_4"
+                    android:scaleType="fitXY"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp" />
+
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/p4"
+                    android:visibility="invisible"
+                    android:layout_marginStart="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/img_4" />
+
+                <TextView
+                    android:text="Basil Leaves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n44"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_alignBottom="@+id/p4"
+                    android:layout_alignStart="@+id/n4" />
+
+                <TextView
+                    android:text="Tulsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/n4"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_above="@+id/n44"
+                    android:layout_toEndOf="@+id/img_4" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
